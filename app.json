@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/fuwu/fuwu",
+    "pages/balance/balance",
+    "pages/we/we",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/integral/integral",
+    "pages/geren/geren"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "丑团外卖",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color": "#B6B6B6",
+    "selectedColor": "#84c9ec",
+    "list": [
+      {
+       "pagePath": "pages/index/index",
+       "text": "外卖",
+       "iconPath": "images/waimai.png",
+       "selectedIconPath": "images/waimai1.png"
+      },{
+        "pagePath": "pages/fuwu/fuwu",
+        "text": "服务",
+        "iconPath": "images/fw.png",
+       "selectedIconPath": "images/fw1.png"
+      },{
+        "pagePath": "pages/we/we",
+        "text": "我的",
+        "iconPath": "images/me.png",
+       "selectedIconPath": "images/meSel.png"
+      }
+    ]
+  },
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

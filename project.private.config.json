@@ -1,0 +1,47 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/fuwu/fuwu",
+          "pathName": "pages/fuwu/fuwu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/we/we",
+          "pathName": "pages/we/we",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/balance/balance",
+          "pathName": "pages/balance/balance",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/integral/integral",
+          "pathName": "pages/integral/integral",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

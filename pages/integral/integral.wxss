@@ -1,0 +1,7 @@
+
+.body{height: 100%; width: 100%;margin-top: 30%;}
+.dqye{width: fit-content; margin:auto;font-size: 50rpx;}
+.ye{width: fit-content; margin:auto;font-size: 110rpx;font-weight: 700;margin-top: 10%;}
+.cz{background-color: #07c160;color: white;margin-top: 20%;}
+.tip1{width: fit-content; margin:auto;margin-top: 40%;color: silver;}
+.tip2{width: fit-content; margin:auto;color: silver;}

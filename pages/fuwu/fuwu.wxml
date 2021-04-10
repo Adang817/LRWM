@@ -1,0 +1,26 @@
+<HdView></HdView>
+
+
+<view class="works">
+  <view class="container">
+  <view class="wkMain">
+<navigator class="box" wx:for="{{20}}" wx:key="id">
+  <view class="pic">
+          <image src="/images/xszp1.jpg"></image>
+        </view>
+  <view class="txt">
+          <view class="title">
+            这里是标题的部分发达的地方v白色的VS但是v
+          </view>
+          <view class="info">
+            <text>电商设计</text> <text space="ensp" decode="{{true}}">        &nbsp;        </text> <text>👁</text>456
+          </view>
+        </view>
+</navigator>
+  </view>
+</view>
+</view>
+
+
+
+<FtView/>

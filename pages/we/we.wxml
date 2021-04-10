@@ -1,0 +1,91 @@
+<!-- <HdView></HdView> -->
+<!-- =================================================登录界面============================================ -->
+<view  class="{{flag?'nologin':'login'}}">
+  <view>{{nickName}}</view>
+  <view class="body">
+    <view class="text1">欢迎使用本平台</view>
+    <image class="image1" src="/images/loginTX.png"></image>
+
+    <button  open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo" bindtap="getUserProfile">微信一键登录</button>
+
+  </view>
+</view>
+<!-- =================================================登录后的主体界面============================================ -->
+<view  class="userinfo">
+  <!-- 第一部分 -->
+  <navigator class="head" hover-class="none" hover-stay-time="50">
+
+    <!-- 头像 -->
+    <image wx:if="{{userInfo.avatarUrl}}" class="pic" src="{{userInfo.avatarUrl}}"></image>
+
+    <!-- 名称信息 -->
+    <view wx:if="{{hour>9 && hour<12}}" class="title"><text class="greet">上午好!</text> {{shorName}}</view>
+    <view wx:elif="{{hour>=12 && hour<14}}" class="title"><text class="greet">中午好!</text> {{shorName}}</view>
+    <view wx:elif="{{hour>=14 && hour<18}}" class="title"><text class="greet">下午好!</text> {{shorName}}</view>
+    <view wx:elif="{{hour>=19 && hour<24}}" class="title"><text class="greet">晚上好!</text> {{shorName}}</view>
+    <view wx:else class="title"><text class="greet">您好!</text> {{shorName}}</view>
+    <!-- <view>点击头像或用户名即可退出</view> -->
+  </navigator>
+
+
+  <!-- 第二部分 -->
+  <view class="money">
+    <!-- 充值 -->
+    <navigator class="recharge" hover-stay-time="50" url="/pages/integral/integral">
+
+      <view class="two">
+        <image src="/images/jf.png" class="t"></image>
+        <view>积分</view>
+      </view>
+
+      <view class="num">
+        <view>10</view>
+      </view>
+
+    </navigator>
+    <!-- 充值 -->
+    <navigator class="balance" hover-stay-time="50" url="/pages/balance/balance">
+      <view class="two">
+        <image src="/images/ye.png" class="t"></image>
+        <view>余额</view>
+      </view>
+      <view class="num">
+        <view>￥10</view>
+      </view>
+
+    </navigator>
+  </view>
+
+  <!-- 第三部分 -->
+  <view class="third">
+    <navigator class="t3" hover-stay-time="50">
+      <image src="/images/dz.png"></image>
+      <view>地址管理</view>
+      <image src="/images/right.png" class="right"></image>
+    </navigator>
+
+    <navigator class="t3" hover-stay-time="50">
+      <image src="/images/dd.png"></image>
+      <view>订单中心</view>
+      <image src="/images/right.png" class="right"></image>
+    </navigator>
+
+    <navigator class="t3" hover-stay-time="50">
+      <image src="/images/sc.png"></image>
+      <view>收藏管理</view>
+      <image src="/images/right.png" class="right"></image>
+    </navigator>
+
+    <navigator class="t3" hover-stay-time="50">
+      <image src="/images/cz.png"></image>
+      <view>充值中心</view>
+      <image src="/images/right.png" class="right"></image>
+    </navigator>
+
+    <navigator class="t3" hover-stay-time="50">
+      <image src="/images/kf.png"></image>
+      <view>客服中心</view>
+      <image src="/images/right.png" class="right"></image>
+    </navigator>
+  </view>
+</view>

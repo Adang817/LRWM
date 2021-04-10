@@ -1,0 +1,9 @@
+
+<view class="body">
+
+<view class="dqye">当前余额</view>
+
+<view class="ye">￥111111</view>
+<button class="cz">充值</button>
+<view class="tip">*余额可以在本平台上支付订单*</view>
+</view>

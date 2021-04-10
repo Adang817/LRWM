@@ -1,0 +1,9 @@
+<view class="body">
+
+<view class="dqye">目前剩余积分</view>
+
+<view class="ye">111111</view>
+
+<view class="tip1">*每10积分可以在支付订单的时候抵消1元*</view>
+<view class="tip2">*积分=订单金额X0.1*</view>
+</view>

@@ -1,0 +1,24 @@
+<HdView></HdView>
+
+<scroll-view class="major" scroll-x="{{true}}">
+
+    <navigator  class="box" url="/pages/ps/ps">
+<image class="pic" src="/images/kecheng1.png"/>
+<view class="txt">超市</view>
+    </navigator>
+
+    <navigator class="box" url="">
+<image class="pic" src="/images/kecheng2.png"/>
+<view class="txt">蔬果</view>
+    </navigator>
+
+    <navigator class="box" url="">
+<image class="pic" src="/images/kecheng3.png"/>
+<view class="txt">健康套餐</view>
+    </navigator>
+</scroll-view>
+
+
+
+
+<FtView/>

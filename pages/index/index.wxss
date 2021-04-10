@@ -1,0 +1,4 @@
+.major {white-space: nowrap;padding: 30rpx 0; }
+.major .box{text-align: center;width: 165rpx;margin:0 auto;}
+.major .box image{width: 250rpx; height:250rpx;}
+.major  .txt{font-size: 26rpx; margin-top: 8rpx;}
